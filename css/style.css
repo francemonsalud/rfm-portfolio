@@ -14,7 +14,6 @@ body {
 	    position: relative;
 	    display: block;
 	    padding: 20px !important;
-	    box-shadow: 0px 3px 30px 0px #fad74445;
 	}
 	.cs-header .cs-flex-box {
 		padding: 0px;
@@ -89,16 +88,16 @@ body {
 	p {font-size: 18px; margin: 0px 0px 15px 0px;}
 	.cs-light { color: #ffffff;  }
 	.cs-dark { color: #202020;  }
-	.cs-primary { color: #2473b9 ;  }
-	.cs-secondary {  color: #4a95d7; }
-	.cs-tertiary { color: #003869;  }
+	.cs-primary { color: #18392b ;  }
+	.cs-secondary {  color: #588b76; }
+	.cs-tertiary { color: #85aa9b;  }
 
 	/* Container CSS */
-	.bg-light {	background: #ffffff; }
-	.bg-light-2 { background: #f4f4f4; }
-	.bg-medium { background: #4a95d7; }
-	.bg-medium-dark { background: #2473b9; }
-	.bg-dark { background: #003869;	}
+	.bg-white {	background: #ffffff; }
+	.bg-gray {	background: #f6f6f6; }
+	.bg-light { background: #85aa9b; }
+	.bg-medium { background: #588b76; }
+	.bg-dark { background: #18392b;	}
 
 	.cs-container {
 		padding: 80px;
@@ -162,7 +161,7 @@ body {
 	}
 
 	/* SERVICES BOX */
-	.cs-container-0.cs-container-services.bg-light-2 {
+	.cs-container-0.cs-container-services {
 	    position: relative;
 	    height: 300px;
 	}
@@ -203,14 +202,14 @@ body {
 		background: #ffffff;
 		font-size: 18px;
 		font-weight: bold;
-		transition: 0.8s;
+		transition: 0.5s;
 		margin-bottom: -1px;
 	}
 	.cs-service-btn:hover {
 		cursor: pointer;
-		transition: 0.8s;
-		color: #fef5e6;
-		background: #003869;
+		transition: 0.5s;
+		color: #ffffff;
+		background: #18392b;
 	}
 
 	/* FIND EBLASTS STYLE */
@@ -244,7 +243,7 @@ body {
 		height: 330px !important;
 	}
 	button.cs-btn-site:hover {
-	    background: #4a95d7;
+	    background: #18392b;
 	    transition: 0.6s;
 	}
 	button.cs-btn-site {
@@ -253,14 +252,14 @@ body {
 	    font-size: 18px;
 	    font-weight: bold;
 	    color: white;
-	    background: #2473b9;
+	    background: #588b76;
 	    box-shadow: 0px 5px 10px #30303073;
 	    border: none;
 	    cursor: pointer;
 	    transition: 0.6s;
 	}
 	button.cs-btn-er:hover {
-	    background: #4a95d7;
+	    background: #18392b;
 	    transition: 0.6s;
 	}
 	button.cs-btn-er {
@@ -269,7 +268,7 @@ body {
 	    font-size: 18px;
 	    font-weight: bold;
 	    color: white;
-	    background: #2473b9;
+	    background: #588b76;
 	    box-shadow: 0px 5px 10px #30303073;
 	    border: none;
 	    cursor: pointer;
